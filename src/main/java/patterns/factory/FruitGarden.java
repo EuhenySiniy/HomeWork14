@@ -2,7 +2,7 @@ package patterns.factory;
 
 public class FruitGarden {
 
-    public Fruit getFruitGarden(TreeTypes type) {
+    public static Fruit getFruitGarden(TreeTypes type) {
         Fruit toReturn = null;
         switch (type) {
             case KIWI:
